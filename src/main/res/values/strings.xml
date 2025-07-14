@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SHEild</string>
+    <string name="accessibility_service_description">SHEild volume key detector</string>
+</resources>

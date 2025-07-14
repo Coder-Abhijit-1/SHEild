@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Use MaterialComponents as the base -->
+    <style name="Theme.SHEild" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary branding colors -->
+        <item name="colorPrimary">#C2185B</item>
+        <item name="colorPrimaryVariant">#AD1457</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">#FFF0F5</item>
+
+        <!-- Secondary / Accent -->
+        <item name="colorSecondary">#F8BBD0</item>
+        <item name="colorOnSecondary">#212121</item>
+
+        <!-- Status bar / system bar tint -->
+        <item name="android:statusBarColor">#AD1457</item>
+        <item name="android:navigationBarColor">#C2185B</item>
+
+        <!-- Typography -->
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#757575</item>
+
+        <!-- Font -->
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+</resources>

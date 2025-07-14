@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="24dp"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Back Button Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_circle_light"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:contentDescription="Back"
+                app:tint="@color/sheild_primary" />
+        </LinearLayout>
+
+        <!-- Avatar -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageAvatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/avatar_neutral"
+            android:contentDescription="User Avatar"
+            android:layout_marginBottom="16dp"
+            app:borderWidth="2dp" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/sheild_primary"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/poppins" />
+
+        <!-- Name Field -->
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:background="@drawable/input_background"
+            android:padding="14dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/gray_text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Phone Field -->
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:background="@drawable/input_background"
+            android:padding="14dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/gray_text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Gender Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="16sp"
+            android:textColor="@color/colorTextSecondary"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Gender Radio Group -->
+        <RadioGroup
+            android:id="@+id/radioGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="@color/colorTextPrimary" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/colorTextPrimary" />
+
+            <RadioButton
+                android:id="@+id/radioOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/colorTextPrimary" />
+        </RadioGroup>
+
+        <!-- Save Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/sheild_primary"
+            app:cornerRadius="12dp"
+            android:paddingVertical="12dp"
+            android:fontFamily="@font/poppins" />
+
+    </LinearLayout>
+</ScrollView>

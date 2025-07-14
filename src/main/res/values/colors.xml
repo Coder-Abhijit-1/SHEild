@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#C2185B</color>
+    <color name="colorPrimaryVariant">#AD1457</color>
+    <color name="colorAccent">#F2FBCCDD</color>
+    <color name="colorBackground">#FFF0F5</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="sheild_primary">#C2185B</color> <!-- Pink shade from icon -->
+    <color name="sheild_light">#F8BBD0</color>
+    <color name="gray_text">#D3d3d3</color>
+        <color name="nav_icon_color">#880E4F</color>
+        <color name="nav_text_color">#880E4F</color>
+    <color name="rose_background">#D81B60</color> <!-- or any soft pink/red tone -->
+
+        <!-- Newly Added Suggestions -->
+        <color name="sheild_surface">#FFE4EC</color> <!-- Very soft pink background for cards -->
+        <color name="sheild_success">#4CAF50</color> <!-- Green for success indicators -->
+        <color name="sheild_error">#D32F2F</color> <!-- Red for error -->
+        <color name="sheild_warning">#F57C00</color> <!-- Orange for warnings -->
+        <color name="sheild_info">#1976D2</color> <!-- Blue for neutral messages -->
+
+        <color name="divider_color">#E0E0E0</color> <!-- Soft gray for dividing lines -->
+        <color name="button_disabled">#FFC1C1C1</color> <!-- Disabled button background -->
+
+
+
+</resources>

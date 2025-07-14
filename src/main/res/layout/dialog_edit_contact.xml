@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <EditText
+        android:id="@+id/etEditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColor="@color/colorTextPrimary"
+        android:textColorHint="@color/colorTextSecondary"
+        android:inputType="textPersonName"
+        android:drawableStart="@android:drawable/ic_menu_edit"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:background="@drawable/edittext_rounded_bg" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/etEditNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:textColor="@color/colorTextPrimary"
+        android:textColorHint="@color/colorTextSecondary"
+        android:inputType="phone"
+        android:drawableStart="@android:drawable/ic_menu_call"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:background="@drawable/edittext_rounded_bg" />
+</LinearLayout>

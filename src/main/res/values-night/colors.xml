@@ -1,0 +1,17 @@
+<resources>
+    <color name="colorPrimary">#880E4F</color>
+    <color name="colorPrimaryVariant">#560027</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#CE93D8</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <color name="colorBackground">#121212</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#B0B0B0</color>
+
+    <color name="nav_icon_color">#F8BBD0</color>
+    <color name="nav_text_color">#F8BBD0</color>
+
+    <color name="rose_background">#880E4F</color>
+</resources>

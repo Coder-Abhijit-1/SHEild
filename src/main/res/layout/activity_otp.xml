@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FCE4EC"
+    android:padding="24dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvOtpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Verification Code"
+        android:textColor="#880E4F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <!-- OTP Input -->
+    <EditText
+        android:id="@+id/editTextOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter 6-digit OTP"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:background="@drawable/rounded_edittext"
+        android:padding="14dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Verify Button -->
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify OTP"
+        android:backgroundTint="#C2185B"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:paddingVertical="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Countdown Text -->
+    <TextView
+        android:id="@+id/tvCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend in 30s"
+        android:textColor="#880E4F"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Resend Button -->
+    <Button
+        android:id="@+id/btnResendOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend OTP"
+        android:enabled="false"
+        android:backgroundTint="#C2185B"
+        android:textColor="#FFFFFF"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="8dp"/>
+</LinearLayout>
